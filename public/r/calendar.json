@@ -8,7 +8,7 @@
     "date-fns"
   ],
   "registryDependencies": [
-    "https://propcore.com/r/nbutton.json"
+    "https://propcore.dev/r/nbutton.json"
   ],
   "files": [
     {

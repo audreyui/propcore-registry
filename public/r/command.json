@@ -7,7 +7,7 @@
     "cmdk"
   ],
   "registryDependencies": [
-    "https://propcore.com/r/ndialog.json"
+    "https://propcore.dev/r/ndialog.json"
   ],
   "files": [
     {

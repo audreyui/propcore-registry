@@ -4,7 +4,7 @@
   "type": "registry:ui",
   "title": "Pagination",
   "registryDependencies": [
-    "https://propcore.com/r/nbutton.json"
+    "https://propcore.dev/r/nbutton.json"
   ],
   "files": [
     {

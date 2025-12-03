@@ -11,8 +11,8 @@
     "react-hook-form"
   ],
   "registryDependencies": [
-    "https://propcore.com/r/nbutton.json",
-    "https://propcore.com/r/nlabel.json"
+    "https://propcore.dev/r/nbutton.json",
+    "https://propcore.dev/r/nlabel.json"
   ],
   "files": [
     {
