@@ -35,7 +35,7 @@ import {
 import { cn } from "@/lib/utils"
 
 export default function Styling() {
-  const defaultColorPalette = colors[10]
+  const defaultColorPalette = colors[0]
 
   const [
     {
@@ -173,13 +173,23 @@ export default function Styling() {
   const resetStyling = () => {
     const r = window.document.querySelector(":root") as HTMLElement
 
-    updateColor(defaultColorPalette.name)
-
-    r.style.setProperty("--border-radius", "5px")
-    r.style.setProperty("--box-shadow-x", "4px")
-    r.style.setProperty("--box-shadow-y", "4px")
-    r.style.setProperty("--heading-font-weight", "700")
-    r.style.setProperty("--base-font-weight", "500")
+    // Clear all custom properties to restore CSS defaults
+    r.style.removeProperty("--background")
+    r.style.removeProperty("--main")
+    r.style.removeProperty("--border-radius")
+    r.style.removeProperty("--box-shadow-x")
+    r.style.removeProperty("--box-shadow-y")
+    r.style.removeProperty("--heading-font-weight")
+    r.style.removeProperty("--base-font-weight")
+    r.style.removeProperty("--chart-1")
+    r.style.removeProperty("--chart-2")
+    r.style.removeProperty("--chart-3")
+    r.style.removeProperty("--chart-4")
+    r.style.removeProperty("--chart-5")
+    r.style.removeProperty("--dark-background")
+    r.style.removeProperty("--dark-main")
+    r.style.removeProperty("--light-background")
+    r.style.removeProperty("--light-main")
 
     setColor(defaultColorPalette)
     setBorderRadius(5)

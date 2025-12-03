@@ -29,12 +29,12 @@ Where neobrutalism embraces discomfort, neo-constructivism embraces **purpose**.
 pnpm dlx shadcn@latest init
 
 # Add a component
-pnpm dlx shadcn@latest add https://propcore.audreyui.com/r/button.json
+pnpm dlx shadcn@latest add https://propcore.com/r/button.json
 ```
 
 ## Documentation
 
-Visit [propcore.audreyui.com/docs](https://propcore.audreyui.com/docs) to get started.
+Visit [propcore.com/docs](https://propcore.com/docs) to get started.
 
 ## Design Principles
 

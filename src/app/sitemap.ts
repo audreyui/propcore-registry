@@ -4,7 +4,7 @@ import COMPONENTS from "@/data/components"
 
 import { transformToSlug } from "@/lib/utils"
 
-const root = "https://propcore.audreyui.com"
+const root = "https://propcore.com"
 
 const DOCS_PAGES = [
   "/docs",

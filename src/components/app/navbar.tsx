@@ -7,7 +7,7 @@ import { StarIcon } from "@/components/ui/button"
 async function getRepoData() {
   try {
     const res = await fetch(
-      "https://api.github.com/repos/audreyui/propcore",
+      "https://api.github.com/repos/getlokiui/propcore",
       {
         cache: "force-cache",
         headers: {
@@ -66,7 +66,7 @@ async function Navbar() {
           <div className="flex items-center justify-end gap-4">
             <a
               target="_blank"
-              href="https://github.com/audreyui/propcore"
+              href="https://github.com/getlokiui/propcore"
               className="flex gap-2 items-center justify-center rounded-base border-2 border-border shadow-shadow px-1.5 h-9 transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none"
             >
               {starsCount && (

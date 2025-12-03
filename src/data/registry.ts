@@ -27,7 +27,7 @@ const UI = [
     title: "Alert dialog",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-alert-dialog"],
-    registryDependencies: ["https://propcore.audreyui.com/r/nbutton.json"],
+    registryDependencies: ["https://propcore.com/r/nbutton.json"],
     files: [
       {
         path: "src/components/ui/alert-dialog.tsx",
@@ -98,7 +98,7 @@ const UI = [
     title: "Calendar",
     type: "registry:ui",
     dependencies: ["react-day-picker@8.10.1", "date-fns"],
-    registryDependencies: ["https://propcore.audreyui.com/r/nbutton.json"],
+    registryDependencies: ["https://propcore.com/r/nbutton.json"],
     files: [
       {
         path: "src/components/ui/calendar.tsx",
@@ -133,7 +133,7 @@ const UI = [
     title: "Carousel",
     type: "registry:ui",
     dependencies: ["embla-carousel-react"],
-    registryDependencies: ["https://propcore.audreyui.com/r/nbutton.json"],
+    registryDependencies: ["https://propcore.com/r/nbutton.json"],
     files: [
       {
         path: "src/components/ui/carousel.tsx",
@@ -146,7 +146,7 @@ const UI = [
     title: "Chart",
     type: "registry:ui",
     dependencies: ["recharts", "lucide-react"],
-    registryDependencies: ["https://propcore.audreyui.com/r/ncard.json"],
+    registryDependencies: ["https://propcore.com/r/ncard.json"],
     files: [
       {
         path: "src/components/ui/chart.tsx",
@@ -183,7 +183,7 @@ const UI = [
     title: "Command",
     type: "registry:ui",
     dependencies: ["cmdk"],
-    registryDependencies: ["https://propcore.audreyui.com/r/ndialog.json"],
+    registryDependencies: ["https://propcore.com/r/ndialog.json"],
     files: [
       {
         path: "src/components/ui/command.tsx",
@@ -262,8 +262,8 @@ const UI = [
       "react-hook-form",
     ],
     registryDependencies: [
-      "https://propcore.audreyui.com/r/nbutton.json",
-      "https://propcore.audreyui.com/r/nlabel.json",
+      "https://propcore.com/r/nbutton.json",
+      "https://propcore.com/r/nlabel.json",
     ],
     files: [
       {
@@ -392,7 +392,7 @@ const UI = [
     name: "pagination",
     title: "Pagination",
     type: "registry:ui",
-    registryDependencies: ["https://propcore.audreyui.com/r/nbutton.json"],
+    registryDependencies: ["https://propcore.com/r/nbutton.json"],
     files: [
       {
         path: "src/components/ui/pagination.tsx",
@@ -501,11 +501,11 @@ const UI = [
     title: "Sidebar",
     type: "registry:ui",
     registryDependencies: [
-      "https://propcore.audreyui.com/r/nbutton.json",
-      "https://propcore.audreyui.com/r/nsheet.json",
-      "https://propcore.audreyui.com/r/ntooltip.json",
-      "https://propcore.audreyui.com/r/ninput.json",
-      "https://propcore.audreyui.com/r/nskeleton.json",
+      "https://propcore.com/r/nbutton.json",
+      "https://propcore.com/r/nsheet.json",
+      "https://propcore.com/r/ntooltip.json",
+      "https://propcore.com/r/ninput.json",
+      "https://propcore.com/r/nskeleton.json",
     ],
     files: [
       {

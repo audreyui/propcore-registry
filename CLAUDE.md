@@ -61,7 +61,7 @@ Description of what this example shows.
 
 Located in `public/r/`. These define what gets installed via:
 ```bash
-pnpm dlx shadcn@latest add https://propcore.audreyui.com/r/[component].json
+pnpm dlx shadcn@latest add https://propcore.com/r/[component].json
 ```
 
 Key fields:

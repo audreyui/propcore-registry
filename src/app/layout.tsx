@@ -37,17 +37,17 @@ export const metadata: Metadata = {
     type: "website",
     description:
       "Neo-constructivist components inspired by 1920s Soviet avant-garde. Based on shadcn/ui.",
-    images: ["https://propcore.audreyui.com/preview.png"],
-    url: "https://propcore.audreyui.com/",
+    images: ["https://propcore.com/preview.png"],
+    url: "https://propcore.com/",
     title: "Propcore Components",
   },
-  metadataBase: new URL("https://propcore.audreyui.com/"),
+  metadataBase: new URL("https://propcore.com/"),
   twitter: {
     card: "summary_large_image",
     title: "Propcore - Neo-constructivist components for React",
     description:
       "Neo-constructivist components inspired by 1920s Soviet avant-garde. Based on shadcn/ui.",
-    images: ["https://propcore.audreyui.com/preview.png"],
+    images: ["https://propcore.com/preview.png"],
   },
 }
 

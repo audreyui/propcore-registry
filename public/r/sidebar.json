@@ -4,11 +4,11 @@
   "type": "registry:ui",
   "title": "Sidebar",
   "registryDependencies": [
-    "https://propcore.audreyui.com/r/nbutton.json",
-    "https://propcore.audreyui.com/r/nsheet.json",
-    "https://propcore.audreyui.com/r/ntooltip.json",
-    "https://propcore.audreyui.com/r/ninput.json",
-    "https://propcore.audreyui.com/r/nskeleton.json"
+    "https://propcore.com/r/nbutton.json",
+    "https://propcore.com/r/nsheet.json",
+    "https://propcore.com/r/ntooltip.json",
+    "https://propcore.com/r/ninput.json",
+    "https://propcore.com/r/nskeleton.json"
   ],
   "files": [
     {

@@ -10,7 +10,6 @@ import reviews from "@/data/reviews"
 import HeroComponents from "@/components/app/hero-components"
 import { sharedComponents } from "@/components/app/mdx-components"
 import { Pre } from "@/components/app/pre"
-import StylingCustomizer from "@/components/app/styling-customizer"
 import {
   SovietStar,
   Gear,
@@ -172,7 +171,7 @@ export default function Home() {
               collaboration and allowing widespread adoption and modification.
             </p>
           </section>
-          <section className="md:border-r-4 md:border-b-0 border-border bg-main dark:text-main-foreground 2xl:p-14 2xl:py-16 xl:p-10 xl:py-10 lg:p-8 lg:py-10 p-5 py-7 border-b-4">
+          <section className="md:border-r-4 md:border-b-0 border-border bg-main text-main-foreground 2xl:p-14 2xl:py-16 xl:p-10 xl:py-10 lg:p-8 lg:py-10 p-5 py-7 border-b-4">
             <div className="flex items-center sm:gap-6 gap-4 sm:mb-6 mb-4">
               <div className="xl:size-[70px] lg:size-[55px] sm:size-12 size-10 flex items-center justify-center">
                 <ShadcnIcon />
@@ -192,30 +191,14 @@ export default function Home() {
                 <CustomizableIcon />
               </div>
 
-              <h3>Customizable</h3>
+              <h3>State-approved palettes</h3>
             </div>
 
             <p className="2xl:text-2xl xl:text-xl md:text-base sm:text-lg text-base">
-              You can easily customize these components to suit your needs.
+              Select from curated revolutionary color schemes approved for the people.
             </p>
           </section>
         </div>
-        <section className="border-b-4 border-b-border bg-background py-16 lg:py-[100px]">
-          <h2 className="mb-5 px-5 text-center">
-            Fully customizable set of components.
-          </h2>
-
-          <p className="text-center px-5 xl:text-xl md:text-lg sm:text-base text-sm">
-            You can customize the styling of the components to your liking.
-            Visit{" "}
-            <Link className="underline font-heading" href={"/styling"}>
-              styling page
-            </Link>{" "}
-            to see the available options.
-          </p>
-
-          <StylingCustomizer />
-        </section>
         <section className="inset-0 flex relative overflow-hidden w-full px-5 flex-col items-center justify-center bg-secondary-background bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px] z-0">
           <RedWedge
             size={250}
@@ -314,7 +297,7 @@ export default function Home() {
                   <a
                     target="_blank"
                     className="underline font-heading"
-                    href="https://github.com/propcore/propcore/blob/main/CONTRIBUTING.md"
+                    href="https://github.com/getlokiui/propcore/blob/main/CONTRIBUTING.md"
                   >
                     contributing.md
                   </a>{" "}
@@ -360,69 +343,13 @@ export default function Home() {
             <ArrowUpRight className="md:size-[30px] size-5" />
           </Link>
 
-          {/* <Tabs defaultValue="pnpm" className="max-w-[650px] w-full h-max">
-            <TabsList className="grid w-full grid-cols-4">
-              <TabsTrigger value="pnpm">pnpm</TabsTrigger>
-              <TabsTrigger value="npm">npm</TabsTrigger>
-              <TabsTrigger value="yarn">yarn</TabsTrigger>
-              <TabsTrigger value="bun">bun</TabsTrigger>
-            </TabsList>
-            <TabsContent value="pnpm">
-              <Pre
-                __rawstring__="pnpm dlx shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json"
-                data-language="bash"
-                wrapperClassName="mb-0!"
-              >
-                <code>
-                  <span className="text-white font-bold">pnpm</span>
-                  <span className="text-white/[0.53] ">{` dlx shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json`}</span>
-                </code>
-              </Pre>
-            </TabsContent>
-            <TabsContent className="**:data-avatar:mb-0" value="npm">
-              <Pre
-                __rawstring__="npx shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json"
-                data-language="bash"
-                wrapperClassName="mb-0!"
-              >
-                <code>
-                  <span className="text-white font-bold">npx</span>
-                  <span className="text-white/[0.53] ">{` shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json`}</span>
-                </code>
-              </Pre>
-            </TabsContent>
-            <TabsContent value="yarn">
-              <Pre
-                __rawstring__="npx shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json"
-                data-language="bash"
-                wrapperClassName="mb-0!"
-              >
-                <code>
-                  <span className="text-white font-bold">npx</span>
-                  <span className="text-white/[0.53] ">{` shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json`}</span>
-                </code>
-              </Pre>
-            </TabsContent>
-            <TabsContent value="bun">
-              <Pre
-                __rawstring__="bunx shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json"
-                data-language="bash"
-                wrapperClassName="mb-0!"
-              >
-                <code>
-                  <span className="text-white font-bold">bunx</span>
-                  <span className="text-white/[0.53] ">{` --bun shadcn@latest init https://propcore.audreyui.com/r/styling/blue.json`}</span>
-                </code>
-              </Pre>
-            </TabsContent>
-          </Tabs> */}
         </section>
       </div>
       <footer className="z-30 border-t-4 border-border bg-secondary-background px-5 py-5 text-center sm:text-base text-sm">
         Released under MIT License. The source code is available on{" "}
         <a
           target="_blank"
-          href="https://github.com/propcore/propcore"
+          href="https://github.com/getlokiui/propcore"
           className="underline font-heading"
         >
           Github

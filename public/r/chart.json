@@ -8,7 +8,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "https://propcore.audreyui.com/r/ncard.json"
+    "https://propcore.com/r/ncard.json"
   ],
   "files": [
     {
